@@ -2,7 +2,7 @@ FROM eclipse-temurin:21-jre
 
 WORKDIR /app
 
-COPY pdf-qa-0.0.1-SNAPSHOT.jar app.jar
+COPY pdf-qa-0.0.2-SNAPSHOT.jar app.jar
 
 EXPOSE 8080
 
